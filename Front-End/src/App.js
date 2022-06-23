@@ -9,7 +9,7 @@ import WelcomeComponent from './components/WelcomeComponent';
 function App() {
   const [word, setWord] = useState('');
   const [images, setImages] = useState([]);
-  const unsplash = process.env.REACT_APP_UNSPLASH_KEY;
+  //const unsplash = process.env.REACT_APP_UNSPLASH_KEY;
   const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5050';
 
   const handleSearchSubmit = (e) => {
